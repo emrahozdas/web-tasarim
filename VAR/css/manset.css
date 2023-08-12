@@ -1,0 +1,36 @@
+.manset {
+  padding-bottom: 5rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.manset-ic {
+  width: 60%;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.sol-ok {
+  position: absolute;
+  top: 40%;
+  left: 28.9%;
+  background: none;
+  font-size: 2.5rem;
+  transition: 0.5s;
+}
+
+.sag-ok {
+  position: absolute;
+  top: 40%;
+  right: 28.9%;
+  background: none;
+  font-size: 2.5rem;
+  transition: 0.5s;
+}
+
+.sol-ok:hover,
+.sag-ok:hover {
+  cursor: pointer;
+  color: #007338;
+}

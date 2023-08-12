@@ -1,0 +1,124 @@
+.navbar {
+  width: 100%;
+  padding-top: 1rem;
+  margin: 1rem auto;
+  color: rgb(44, 44, 44);
+  /* background-color: white; */
+  padding: 0.5rem 8rem;
+  font-size: 1.56rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-between;
+}
+
+.navbar-list {
+  color: black;
+  font-size: 1.2rem;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-2 {
+  color: black;
+  /* background-color: white; */
+  margin-top: 1rem;
+  border: black;
+  box-shadow: darkgray inherit 1px 1px;
+  padding: 0.5rem 8rem;
+  font-size: 1.56rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-list-2 {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 81.3%;
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.ikon {
+  margin-left: 0.625rem;
+}
+
+.ikon:hover {
+  color: #05c708;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.search-bar {
+  padding-left: 0.625rem;
+  width: 45rem;
+  height: 2.25rem;
+  font-size: 1.05rem;
+  /* color: gray; */
+  background-color: whitesmoke;
+  border: black solid 0.1px;
+  border-right: #00a651 solid 0.1px;
+  border-radius: 0.3rem 1% 1% 0.3rem;
+  outline: none;
+}
+.search-bar::placeholder {
+  color: black;
+}
+.search-bar:focus {
+  border-color: #00ff03;
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.25);
+}
+
+.menu {
+  background-color: black;
+  width: 6.25rem;
+}
+
+.arama-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8125rem;
+}
+.arama-buton {
+  /* font-size: 1.5rem; */
+  margin-left: 0.625rem;
+  margin-top: 0.25rem;
+  color: gray;
+}
+
+.logo {
+  margin-bottom: 0.8rem;
+  margin-left: 0rem;
+}
+.buton {
+  border-radius: 0% 4% 4% 0%;
+  font-size: 1rem;
+  width: 5.1rem;
+  padding: 0.3rem;
+  margin-left: -5.12rem;
+  border: #00a651 0.1px solid;
+  color: #fff;
+  background: #00a651;
+}
+.buton:hover {
+  background: #05c708;
+  transition: 0.5s;
+}
+.buton:active {
+  border-color: #00ff03;
+  box-shadow: 0 0 0 0.2rem rgba(0, 255, 0, 0.25);
+  transition: 0s;
+}
+.nav-alt-cizgi {
+  border-bottom: 0.1px solid whitesmoke;
+}
+.nav-alt-cizgi:hover {
+  border-bottom: 0.1px solid #05c708;
+}
+
+.sepetim {
+  margin-left: 3rem;
+  transition: 0s;
+}

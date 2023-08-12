@@ -1,0 +1,73 @@
+.urunler {
+  padding: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  border: rgb(160, 159, 159) solid 0.1px;
+  border-radius: 0.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.urun {
+  /* background-color: #fff; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: grid;
+  grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+}
+
+.urun-gorsel {
+  background: none;
+  box-shadow: none;
+  width: 7.5rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+}
+
+.urun-baslik {
+  /* background-color: white; */
+  color: #00a651;
+  /* text-align: center; */
+}
+
+.urun-gorseli {
+  background: none;
+}
+.urun-text {
+  font-size: 1.125rem;
+  /* background-color: white; */
+  text-align: center;
+}
+
+.sepete-ekle {
+  background-color: #00a651;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+.sepete-ekle:hover {
+  background-color: #007338;
+  transition: 0.8s;
+}
+
+.yildiz-begen {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.begen {
+  font-size: 0.8rem;
+  color: rgb(59, 59, 59);
+  /* margin: 0 auto; */
+  text-align: right;
+}
+
+.yildiz {
+  font-size: 0.8rem;
+  color: rgb(59, 59, 59);
+}
